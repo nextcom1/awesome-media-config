@@ -9,7 +9,7 @@ promotion: action
 
 spring:
   application:
-    name: awesome-media-localhost
+    name: awesome-media-backend
   datasource:
     platform: h2
     initialize: true
