@@ -20,4 +20,5 @@ spring:
   h2:
     console:
       enabled: true
-      
+
+name: kimkangil
