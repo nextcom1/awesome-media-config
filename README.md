@@ -1,0 +1,2 @@
+# awesome-media-config
+Education
