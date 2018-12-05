@@ -22,3 +22,16 @@ spring:
       enabled: true
 
 name: kimkangil
+
+eureka: 
+  instance:
+    instance-id: localhost:${server.port}
+    hostname: localhost
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 10
+  client:
+    region: default
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
