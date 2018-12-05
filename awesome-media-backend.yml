@@ -6,7 +6,6 @@ management:
     enabled: false    
 
 promotion: action
-  name: kimkangil
 
 spring:
   application:
